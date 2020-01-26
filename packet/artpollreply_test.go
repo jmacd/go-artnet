@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jsimonetti/go-artnet/packet/code"
+	"github.com/jmacd/go-artnet/packet/code"
 )
 
 func TestArtPollReplyPacketMarshal(t *testing.T) {

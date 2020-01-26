@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jsimonetti/go-artnet/packet"
-	"github.com/jsimonetti/go-artnet/packet/code"
+	"github.com/jmacd/go-artnet/packet"
+	"github.com/jmacd/go-artnet/packet/code"
 )
 
 var broadcastAddr = net.UDPAddr{
